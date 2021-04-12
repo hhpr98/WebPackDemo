@@ -1,0 +1,23 @@
+{
+    "name": "webpackdemo",
+    "version": "1.0.0",
+    "description": "demo webpack",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start:dev": "index.html",
+        "watch": "webpack --watch",
+        "start": "npm run build && npm run start:dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1"
+    }
+}
